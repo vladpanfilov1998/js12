@@ -1,0 +1,88 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.posts {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 150px;
+    height: 260px;
+    margin: 8px;
+    padding: 10px;
+    border: 3px solid red;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: aqua;
+    font-size: 12px;
+}
+
+.comments {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.comment {
+    width: 150px;
+    height: 260px;
+    margin: 8px;
+    padding: 10px;
+    border: 3px solid navy;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: blueviolet;
+    font-size: 12px;
+    color: white;
+}
+
+.posty {
+    width: 150px;
+    height: 260px;
+    margin: 8px;
+    padding: 10px;
+    border: 3px solid red;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: aqua;
+    font-size: 12px;
+}
+
+.commenty {
+    margin: 8px;
+    padding: 10px;
+    border: 3px solid navy;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: blueviolet;
+    font-size: 12px;
+    color: white;
+}
+
+.post-comments {
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.post-comments:hover {
+    transition: .3s;
+    transform: rotateY(2grad);
+}
